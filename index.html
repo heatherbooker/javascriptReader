@@ -2,21 +2,28 @@
 
 	<head>
 		<script src='script.js'></script>
+		<link rel='stylesheet' type='text/css' href='style.css'>
 	</head>
 
 	<body>
-		
-		<div id='input'>
+		<div id='groupingDiv'>
+			<div id='input'>
+				<textarea id='myText' rows='25' cols='100'>Type JAVASCRIPT here</textarea>
+			</div>
+			<div id='buttons'>
+				<div id='run'>
+					<button onclick=runInput()>Run</button>
+				</div>
+				<div id='clearInput'>
+					<button onclick=clearInput()>Clear Input</button> 
+				</div>
+				<div id='clearOutput'>
+					<button onclick=clearOutput()>Clear Output</button>
+				</div>
+			</div>
 		</div>
 		<div id='output'>
 		</div>
-		<div id='run'>
-		</div>
-		<div id='clearInput'>
-		</div>
-		<div id='clearOutput'>
-		</div>
-
 
 	</body>
 

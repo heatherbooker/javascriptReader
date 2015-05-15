@@ -1,0 +1,16 @@
+#output {
+	border: solid grey 1px;
+	clear: both;
+	height: 13em;
+}
+#groupingDiv {
+	display: inline;
+}
+#buttons {
+	position: relative;
+	left: 15px;
+}
+textarea {
+	float: left;
+	border: solid grey 1px;
+}
